@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LocMultipleLang (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "LocMultipleLang (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

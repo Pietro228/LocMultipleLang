@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DashboardPage_CreateWidget.Content" xml:space="preserve">
+    <value>Create widget</value>
+  </data>
+  <data name="Customize" xml:space="preserve">
+    <value>Customize</value>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Import widget package</value>
+  </data>
+  <data name="MainWindow_Nav_Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="MainWindow_Nav_Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="MainWindow_Nav_DeveloperTools" xml:space="preserve">
+    <value>Developer tools</value>
+  </data>
+  <data name="MainWindow_Nav_InstalledWidgets" xml:space="preserve">
+    <value>Installed widgets</value>
+  </data>
+  <data name="Settings_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Settings_Advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="TeachingTip_DeveloperTools" xml:space="preserve">
+    <value>Here I am!</value>
+  </data>
+  <data name="MainWindow_Nav_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Settings_General_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Settings_General_Language_Desc" xml:space="preserve">
+    <value>More localizations coming soon!</value>
+  </data>
+  <data name="Settings_General_RunOnStartup" xml:space="preserve">
+    <value>Run on startup</value>
+  </data>
+  <data name="Settings_General_RunOnStartup_Desc" xml:space="preserve">
+    <value>Run BeWidgets when you log in to your computer.</value>
+  </data>
+  <data name="Settings_General_Language_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Settings_Theme" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="Settings_Advanced_ShowDeveloperToolsMenu" xml:space="preserve">
+    <value>Show developer tools menu</value>
+  </data>
+  <data name="Settings_Advanced_ShowDeveloperToolsMenu_Desc" xml:space="preserve">
+    <value>Helps you ease the development of your widgets.</value>
+  </data>
+  <data name="Settings_OpenLocalStateFolder" xml:space="preserve">
+    <value>Open local state folder</value>
+  </data>
+  <data name="Settings_OpenLogFileFolder" xml:space="preserve">
+    <value>Open log file folder</value>
+  </data>
+  <data name="Settings_ExportAppData" xml:space="preserve">
+    <value>Export app data</value>
+  </data>
+  <data name="Settings_ClearAppDataAndRestartBeWidgets" xml:space="preserve">
+    <value>Clear app data and restart BeWidgets</value>
+  </data>
+  <data name="Settings_DependenciesReferences" xml:space="preserve">
+    <value>Dependencies &amp; references</value>
+  </data>
+  <data name="Dev_WidgetPackager" xml:space="preserve">
+    <value>Widget packager</value>
+  </data>
+  <data name="Dev_WidgetPackager_Desc" xml:space="preserve">
+    <value>Package your widget to the *.wpkg format.</value>
+  </data>
+  <data name="Dev_SideloadWidgetPackage" xml:space="preserve">
+    <value>Sideload widget package</value>
+  </data>
+  <data name="Dev_SideloadWidgetPackage_Desc" xml:space="preserve">
+    <value>Import and install a widget package from a *.wpkg file.</value>
+  </data>
+  <data name="Dev_SideloadPackage" xml:space="preserve">
+    <value>Sideload a package</value>
+  </data>
+  <data name="Dev_CreatePackage" xml:space="preserve">
+    <value>Create a package</value>
+  </data>
+  <data name="Dev_WidgetPackages" xml:space="preserve">
+    <value>Widget packages</value>
+  </data>
+  <data name="Dev_SideloadingWarning" xml:space="preserve">
+    <value>This action can be dangerous when installing a 3rd party package which could contain malware or other threats!
+We recommend you only install widgets from the store.</value>
+  </data>
+  <data name="Dev_Sideloading" xml:space="preserve">
+    <value>Sideloading</value>
+  </data>
+  <data name="Dev_WidgetDeveloperDocumentation" xml:space="preserve">
+    <value>Widget Developer Documentation</value>
+  </data>
+  <data name="Dev_WinUI3Gallery" xml:space="preserve">
+    <value>WinUI 3 Gallery</value>
+  </data>
+  <data name="Dev_WinCommunityToolkitGallery" xml:space="preserve">
+    <value>Windows Community Toolkit Gallery</value>
+  </data>
+  <data name="Dev_FluentIcons" xml:space="preserve">
+    <value>Fluent Icons</value>
+  </data>
+  <data name=" " xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="Installed_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Installed_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Installed_CheckForUpdate" xml:space="preserve">
+    <value>Check for update</value>
+  </data>
+  <data name="Installed_Uninstall" xml:space="preserve">
+    <value>Uninstall</value>
+  </data>
+  <data name="Dev_UsefulLinks" xml:space="preserve">
+    <value>Useful links</value>
+  </data>
+  <data name="Layout_CreateNewLayout" xml:space="preserve">
+    <value>Create new layout</value>
+  </data>
+  <data name="Layout_Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="Layout_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Layout_Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="Layout_ChangeThumbnail" xml:space="preserve">
+    <value>Change thumbnail</value>
+  </data>
+  <data name="Layout_Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="MainWindow_Nav_Layouts" xml:space="preserve">
+    <value>Layouts</value>
+  </data>
+  <data name="MainWindow_Nav_Automations" xml:space="preserve">
+    <value>Automations</value>
+  </data>
+  <data name="MainWindow_Nav_Store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="InstallationStarted" xml:space="preserve">
+    <value>Installation started!</value>
+  </data>
+  <data name="DeveloperToolsEnabled" xml:space="preserve">
+    <value>Developer tools have been enabled.</value>
+  </data>
+  <data name="MainWindow_TeachingTip_DeveloperTools" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="MainWindow_Duplicates_Dashboard" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="MainWindow_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="CreateLayoutContentDialog_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CreateLayoutContentDialog_NewLayout" xml:space="preserve">
+    <value>New Layout</value>
+  </data>
+  <data name="CreateWidgetContentDialog_SelectWidget" xml:space="preserve">
+    <value>Select one of the installed widgets.</value>
+  </data>
+  <data name="EditLayoutContentDialog_ChangeThumbnail" xml:space="preserve">
+    <value>Change thumbnail</value>
+  </data>
+  <data name="PackageOverwriteContentDialog_UpdateExistingPackage" xml:space="preserve">
+    <value>Would you like to update the already existing package?</value>
+  </data>
+  <data name="PackageWidgetWindow_Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="PackageWidgetWindow_WidgetExeLocation" xml:space="preserve">
+    <value>Widget executable location</value>
+  </data>
+  <data name="PackageWidgetWindow_PathToWidgetExe" xml:space="preserve">
+    <value>Path to the widget executable</value>
+  </data>
+  <data name="PackageWidgetWindow_WidgetPackager" xml:space="preserve">
+    <value>Widget packager</value>
+  </data>
+  <data name="PackageWidgetWindow_PackageYourWidget" xml:space="preserve">
+    <value>Package your widget</value>
+  </data>
+  <data name="PackageWidgetWindow_PathOutputFolder" xml:space="preserve">
+    <value>Path to the output folder</value>
+  </data>
+  <data name="PackageWidgetWindow_OutputLocation" xml:space="preserve">
+    <value>Output location</value>
+  </data>
+  <data name="PackageWidgetWindow_InstallAfterPackaging" xml:space="preserve">
+    <value>Install after packaging</value>
+  </data>
+  <data name="PackageWidgetWindow_Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="PackageWidgetWindow_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Installed_CheckUpdates" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="StorePage_WidgetName" xml:space="preserve">
+    <value>Widget name</value>
+  </data>
+  <data name="StorePage_Official" xml:space="preserve">
+    <value>Official</value>
+  </data>
+  <data name="StorePage_Installed" xml:space="preserve">
+    <value>Installed</value>
+  </data>
+  <data name="StoreWidgetDetailsPage_DevelopedBy" xml:space="preserve">
+    <value>Developed by</value>
+  </data>
+  <data name="StoreWidgetDetailsPage_Install" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="StoreWidgetsDetailsPage_Screenshots" xml:space="preserve">
+    <value>Screenshots</value>
+  </data>
+  <data name="StoreWidgetDetailsPage_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="StoreWidgetDescriptionPage_WhatsNewVersion" xml:space="preserve">
+    <value>What's new in this version</value>
+  </data>
+  <data name="StoreWidgetDetailsPage_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="StoreWidgetDetailsPage_Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="StoreWidgetDetailsPage_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="StoreWidgetDetailsPage_License" xml:space="preserve">
+    <value>Licence</value>
+  </data>
+  <data name="StoreWidgetDetailsPage_Manage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="FirstSetupInstallPackagesPage_PickYourWidgets" xml:space="preserve">
+    <value>Pick your widgets.</value>
+  </data>
+  <data name="FirstSetupInstallPackagesPage_PickYourWidgets_Message" xml:space="preserve">
+    <value>Select widgets that you would like to install. You can install them later using the store.</value>
+  </data>
+  <data name="FirstSetupInstallPackagesPage_Official" xml:space="preserve">
+    <value>Official</value>
+  </data>
+  <data name="FirstSetupInstallPackagesPage_ServerUnavailable" xml:space="preserve">
+    <value>Store server is currently unavailable.</value>
+  </data>
+  <data name="FirstSetupInstallPackagesPage_CheckConnection" xml:space="preserve">
+    <value>Check your internet connection and try it again later.</value>
+  </data>
+  <data name="FirstSetupInstallPackagesPage_Install" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="FirstSetupInstallPackagesPage_Installed" xml:space="preserve">
+    <value>Installed</value>
+  </data>
+  <data name="Installed_NoInstalledWidgets_1" xml:space="preserve">
+    <value>You don't have any installed widgets. Visit</value>
+  </data>
+  <data name="Installed_NoInstalledWidgets_2" xml:space="preserve">
+    <value>store</value>
+  </data>
+  <data name="Installed_NoInstalledWidgets_3" xml:space="preserve">
+    <value>to install some.</value>
+  </data>
+  <data name="Installed_NoInstalledWidgets_OptionalSeparator" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ContentDialog_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ContentDialog_CreateNewWidget" xml:space="preserve">
+    <value>Create new widget</value>
+  </data>
+</root>
