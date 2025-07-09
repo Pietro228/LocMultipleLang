@@ -19,7 +19,7 @@
                 Click="Button_Click" />
         <Button Content="en-GB"
                 Click="Button_Click" />
-        <Button Content="cs-CZ"
+        <Button Content="en-CZ"
                 Click="Button_Click" />
     </StackPanel>
 </Window>

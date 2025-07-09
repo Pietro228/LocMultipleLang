@@ -50,7 +50,7 @@ namespace LocMultipleLang
             string resourceFileName = "Resources.resw";
             await CreateStringResourceFileIfNotExists(stringsFolder, "en-GB", resourceFileName);
             await CreateStringResourceFileIfNotExists(stringsFolder, "en-US", resourceFileName);
-            await CreateStringResourceFileIfNotExists(stringsFolder, "cs-CZ", resourceFileName);
+            await CreateStringResourceFileIfNotExists(stringsFolder, "en-CZ", resourceFileName);
 
             // Build localizer
             ILocalizer localizer = await new LocalizerBuilder()
